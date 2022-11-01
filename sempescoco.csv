@@ -1,4 +1,5 @@
 sep=;
 id;nome;matricula;idade;nota
-mito;15;36;48
-pipiu;15;26;39
+1;mito;15;36;48
+2;pipiu;15;26;39
+3;hh; 2; 77; 34
