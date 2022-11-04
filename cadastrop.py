@@ -1,6 +1,3 @@
-from re import S
-
-
 def cadastro():
     a = open("sempescoco.csv","r") 
 
@@ -12,6 +9,20 @@ def cadastro():
     
     print(V.split(';'))
 
+    V = V.split(';')
+
+    # imprimindo o terceiro elemento "3"
+    print(V[0])
+
+    V = V[0]
+    print(V[0])
+
+    converted_V = int(V)
+
+    print( converted_V+1)
+  
+    id = converted_V+1
+
     a.close()
 
     n = input("digite o nome do aluno")
@@ -22,6 +33,8 @@ def cadastro():
 
     a = open ("sempescoco.csv","a+")
 
+    a.write( str(id) )
+    a.write( ";")
     a.write( n )
     a.write( ";" )
     a.write( m )
@@ -36,7 +49,7 @@ def cadastro():
 
 
 
-   
+    
     
 cadastro() 
 
