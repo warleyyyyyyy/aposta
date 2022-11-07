@@ -48,8 +48,3 @@ def cadastro():
     a.close()
 
 
-
-    
-    
-cadastro() 
-
